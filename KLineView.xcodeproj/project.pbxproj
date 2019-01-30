@@ -78,6 +78,7 @@
 		CC829F34220181AE00024496 /* KLinePriceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLinePriceView.swift; sourceTree = "<group>"; };
 		CC829F35220181AE00024496 /* KLinePriceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLinePriceCell.swift; sourceTree = "<group>"; };
 		CC829F4B2201851700024496 /* KLineData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = KLineData.plist; sourceTree = "<group>"; };
+		CC829F4D2201946500024496 /* KLineDemo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = KLineDemo.mp4; sourceTree = "<group>"; };
 		EA63F1C0674776BF88B877CE /* Pods-KLineViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLineViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KLineViewTests/Pods-KLineViewTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -149,6 +150,7 @@
 				CC829EFB2201818700024496 /* ViewController.swift */,
 				CC829EFD2201818700024496 /* Main.storyboard */,
 				CC829F4B2201851700024496 /* KLineData.plist */,
+				CC829F4D2201946500024496 /* KLineDemo.mp4 */,
 				CC829F002201818900024496 /* Assets.xcassets */,
 				CC829F022201818900024496 /* LaunchScreen.storyboard */,
 				CC829F052201818900024496 /* Info.plist */,
