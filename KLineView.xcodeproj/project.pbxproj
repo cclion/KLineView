@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0862A16E300B4861C95A150F /* Pods_KLineViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 604B732B20F6CE22D2B461F3 /* Pods_KLineViewTests.framework */; };
+		B1D73D7E5C1AB087BF75A141 /* Pods_KLineViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD9B39BFAE904C61545D15D /* Pods_KLineViewUITests.framework */; };
 		CC829EFA2201818700024496 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC829EF92201818700024496 /* AppDelegate.swift */; };
 		CC829EFC2201818700024496 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC829EFB2201818700024496 /* ViewController.swift */; };
 		CC829EFF2201818700024496 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC829EFD2201818700024496 /* Main.storyboard */; };
@@ -14,6 +16,17 @@
 		CC829F042201818900024496 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC829F022201818900024496 /* LaunchScreen.storyboard */; };
 		CC829F0F2201818900024496 /* KLineViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC829F0E2201818900024496 /* KLineViewTests.swift */; };
 		CC829F1A2201818900024496 /* KLineViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC829F192201818900024496 /* KLineViewUITests.swift */; };
+		CC829F36220181AE00024496 /* KLineVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC829F29220181AE00024496 /* KLineVM.swift */; };
+		CC829F37220181AE00024496 /* KLineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC829F2B220181AE00024496 /* KLineVC.swift */; };
+		CC829F38220181AE00024496 /* KLineConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC829F2D220181AE00024496 /* KLineConst.swift */; };
+		CC829F39220181AE00024496 /* KLineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC829F2F220181AE00024496 /* KLineModel.swift */; };
+		CC829F3A220181AE00024496 /* KLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC829F31220181AE00024496 /* KLineView.swift */; };
+		CC829F3B220181AE00024496 /* KLineVolumeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC829F32220181AE00024496 /* KLineVolumeCell.swift */; };
+		CC829F3C220181AE00024496 /* KLineVolumeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC829F33220181AE00024496 /* KLineVolumeView.swift */; };
+		CC829F3D220181AE00024496 /* KLinePriceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC829F34220181AE00024496 /* KLinePriceView.swift */; };
+		CC829F3E220181AE00024496 /* KLinePriceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC829F35220181AE00024496 /* KLinePriceCell.swift */; };
+		CC829F4C2201851700024496 /* KLineData.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC829F4B2201851700024496 /* KLineData.plist */; };
+		E1C37D5A9F5CF24DF578A9A3 /* Pods_KLineView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C62A3E3D076F3E4C43B69FD /* Pods_KLineView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +47,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20888BA57DADF3DA9E052FDA /* Pods-KLineView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLineView.release.xcconfig"; path = "Pods/Target Support Files/Pods-KLineView/Pods-KLineView.release.xcconfig"; sourceTree = "<group>"; };
+		2CD9B39BFAE904C61545D15D /* Pods_KLineViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KLineViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33929C5383F6DB8AD67C7C79 /* Pods-KLineView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLineView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KLineView/Pods-KLineView.debug.xcconfig"; sourceTree = "<group>"; };
+		4F95F9F8B8D74EAA9665464B /* Pods-KLineViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLineViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KLineViewTests/Pods-KLineViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		604B732B20F6CE22D2B461F3 /* Pods_KLineViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KLineViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C62A3E3D076F3E4C43B69FD /* Pods_KLineView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KLineView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADBBED89208BD732A123719C /* Pods-KLineViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLineViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KLineViewUITests/Pods-KLineViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C6E34661E00EAF78DB145028 /* Pods-KLineViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLineViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KLineViewUITests/Pods-KLineViewUITests.release.xcconfig"; sourceTree = "<group>"; };
 		CC829EF62201818700024496 /* KLineView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KLineView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC829EF92201818700024496 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC829EFB2201818700024496 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +68,17 @@
 		CC829F152201818900024496 /* KLineViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KLineViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC829F192201818900024496 /* KLineViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLineViewUITests.swift; sourceTree = "<group>"; };
 		CC829F1B2201818900024496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC829F29220181AE00024496 /* KLineVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLineVM.swift; sourceTree = "<group>"; };
+		CC829F2B220181AE00024496 /* KLineVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLineVC.swift; sourceTree = "<group>"; };
+		CC829F2D220181AE00024496 /* KLineConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLineConst.swift; sourceTree = "<group>"; };
+		CC829F2F220181AE00024496 /* KLineModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLineModel.swift; sourceTree = "<group>"; };
+		CC829F31220181AE00024496 /* KLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLineView.swift; sourceTree = "<group>"; };
+		CC829F32220181AE00024496 /* KLineVolumeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLineVolumeCell.swift; sourceTree = "<group>"; };
+		CC829F33220181AE00024496 /* KLineVolumeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLineVolumeView.swift; sourceTree = "<group>"; };
+		CC829F34220181AE00024496 /* KLinePriceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLinePriceView.swift; sourceTree = "<group>"; };
+		CC829F35220181AE00024496 /* KLinePriceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KLinePriceCell.swift; sourceTree = "<group>"; };
+		CC829F4B2201851700024496 /* KLineData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = KLineData.plist; sourceTree = "<group>"; };
+		EA63F1C0674776BF88B877CE /* Pods-KLineViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLineViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KLineViewTests/Pods-KLineViewTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1C37D5A9F5CF24DF578A9A3 /* Pods_KLineView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0862A16E300B4861C95A150F /* Pods_KLineViewTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +102,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1D73D7E5C1AB087BF75A141 /* Pods_KLineViewUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		90C79117B5AEC275DD24DD12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C62A3E3D076F3E4C43B69FD /* Pods_KLineView.framework */,
+				604B732B20F6CE22D2B461F3 /* Pods_KLineViewTests.framework */,
+				2CD9B39BFAE904C61545D15D /* Pods_KLineViewUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CC829EED2201818700024496 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +126,8 @@
 				CC829F0D2201818900024496 /* KLineViewTests */,
 				CC829F182201818900024496 /* KLineViewUITests */,
 				CC829EF72201818700024496 /* Products */,
+				F4901676F3AE9DA73A030EB1 /* Pods */,
+				90C79117B5AEC275DD24DD12 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +144,11 @@
 		CC829EF82201818700024496 /* KLineView */ = {
 			isa = PBXGroup;
 			children = (
+				CC829F27220181AE00024496 /* KLine */,
 				CC829EF92201818700024496 /* AppDelegate.swift */,
 				CC829EFB2201818700024496 /* ViewController.swift */,
 				CC829EFD2201818700024496 /* Main.storyboard */,
+				CC829F4B2201851700024496 /* KLineData.plist */,
 				CC829F002201818900024496 /* Assets.xcassets */,
 				CC829F022201818900024496 /* LaunchScreen.storyboard */,
 				CC829F052201818900024496 /* Info.plist */,
@@ -125,6 +174,75 @@
 			path = KLineViewUITests;
 			sourceTree = "<group>";
 		};
+		CC829F27220181AE00024496 /* KLine */ = {
+			isa = PBXGroup;
+			children = (
+				CC829F28220181AE00024496 /* ViewModel */,
+				CC829F2A220181AE00024496 /* Controller */,
+				CC829F2C220181AE00024496 /* Const */,
+				CC829F2E220181AE00024496 /* Model */,
+				CC829F30220181AE00024496 /* View */,
+			);
+			path = KLine;
+			sourceTree = "<group>";
+		};
+		CC829F28220181AE00024496 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CC829F29220181AE00024496 /* KLineVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CC829F2A220181AE00024496 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CC829F2B220181AE00024496 /* KLineVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CC829F2C220181AE00024496 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				CC829F2D220181AE00024496 /* KLineConst.swift */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		CC829F2E220181AE00024496 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CC829F2F220181AE00024496 /* KLineModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CC829F30220181AE00024496 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CC829F31220181AE00024496 /* KLineView.swift */,
+				CC829F32220181AE00024496 /* KLineVolumeCell.swift */,
+				CC829F33220181AE00024496 /* KLineVolumeView.swift */,
+				CC829F34220181AE00024496 /* KLinePriceView.swift */,
+				CC829F35220181AE00024496 /* KLinePriceCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F4901676F3AE9DA73A030EB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33929C5383F6DB8AD67C7C79 /* Pods-KLineView.debug.xcconfig */,
+				20888BA57DADF3DA9E052FDA /* Pods-KLineView.release.xcconfig */,
+				4F95F9F8B8D74EAA9665464B /* Pods-KLineViewTests.debug.xcconfig */,
+				EA63F1C0674776BF88B877CE /* Pods-KLineViewTests.release.xcconfig */,
+				ADBBED89208BD732A123719C /* Pods-KLineViewUITests.debug.xcconfig */,
+				C6E34661E00EAF78DB145028 /* Pods-KLineViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +250,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC829F1E2201818900024496 /* Build configuration list for PBXNativeTarget "KLineView" */;
 			buildPhases = (
+				E73FCBBD621F689C89670243 /* [CP] Check Pods Manifest.lock */,
 				CC829EF22201818700024496 /* Sources */,
 				CC829EF32201818700024496 /* Frameworks */,
 				CC829EF42201818700024496 /* Resources */,
+				5F3734C987264A4DEE3A7E0A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +269,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC829F212201818900024496 /* Build configuration list for PBXNativeTarget "KLineViewTests" */;
 			buildPhases = (
+				35760E51ACCAE095D10F9B27 /* [CP] Check Pods Manifest.lock */,
 				CC829F062201818900024496 /* Sources */,
 				CC829F072201818900024496 /* Frameworks */,
 				CC829F082201818900024496 /* Resources */,
@@ -167,6 +288,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC829F242201818900024496 /* Build configuration list for PBXNativeTarget "KLineViewUITests" */;
 			buildPhases = (
+				366CBF56939D42E2D02EE085 /* [CP] Check Pods Manifest.lock */,
 				CC829F112201818900024496 /* Sources */,
 				CC829F122201818900024496 /* Frameworks */,
 				CC829F132201818900024496 /* Resources */,
@@ -231,6 +353,7 @@
 			files = (
 				CC829F042201818900024496 /* LaunchScreen.storyboard in Resources */,
 				CC829F012201818900024496 /* Assets.xcassets in Resources */,
+				CC829F4C2201851700024496 /* KLineData.plist in Resources */,
 				CC829EFF2201818700024496 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,13 +374,117 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		35760E51ACCAE095D10F9B27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KLineViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		366CBF56939D42E2D02EE085 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KLineViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F3734C987264A4DEE3A7E0A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KLineView/Pods-KLineView-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KLineView/Pods-KLineView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E73FCBBD621F689C89670243 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KLineView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CC829EF22201818700024496 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC829F38220181AE00024496 /* KLineConst.swift in Sources */,
+				CC829F37220181AE00024496 /* KLineVC.swift in Sources */,
 				CC829EFC2201818700024496 /* ViewController.swift in Sources */,
+				CC829F3B220181AE00024496 /* KLineVolumeCell.swift in Sources */,
+				CC829F3D220181AE00024496 /* KLinePriceView.swift in Sources */,
+				CC829F36220181AE00024496 /* KLineVM.swift in Sources */,
 				CC829EFA2201818700024496 /* AppDelegate.swift in Sources */,
+				CC829F39220181AE00024496 /* KLineModel.swift in Sources */,
+				CC829F3E220181AE00024496 /* KLinePriceCell.swift in Sources */,
+				CC829F3C220181AE00024496 /* KLineVolumeView.swift in Sources */,
+				CC829F3A220181AE00024496 /* KLineView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +657,7 @@
 		};
 		CC829F1F2201818900024496 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33929C5383F6DB8AD67C7C79 /* Pods-KLineView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +676,7 @@
 		};
 		CC829F202201818900024496 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20888BA57DADF3DA9E052FDA /* Pods-KLineView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +695,7 @@
 		};
 		CC829F222201818900024496 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F95F9F8B8D74EAA9665464B /* Pods-KLineViewTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +717,7 @@
 		};
 		CC829F232201818900024496 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA63F1C0674776BF88B877CE /* Pods-KLineViewTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +739,7 @@
 		};
 		CC829F252201818900024496 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADBBED89208BD732A123719C /* Pods-KLineViewUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +760,7 @@
 		};
 		CC829F262201818900024496 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6E34661E00EAF78DB145028 /* Pods-KLineViewUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

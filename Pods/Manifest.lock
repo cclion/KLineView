@@ -1,0 +1,24 @@
+PODS:
+  - HandyJSON (4.2.0)
+  - SnapKit (4.0.1)
+  - SwiftyJSON (4.2.0)
+
+DEPENDENCIES:
+  - HandyJSON
+  - SnapKit (~> 4.0.0)
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - HandyJSON
+    - SnapKit
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  HandyJSON: 9dfc026c7d7adc1f0f8ba8b181495f0e0763b0f4
+  SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+
+PODFILE CHECKSUM: 747013ffc5ae2b9d0c11893936291206272dd3d1
+
+COCOAPODS: 1.5.3
