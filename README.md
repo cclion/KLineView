@@ -9,6 +9,8 @@
 
 - 如果搭建K线为公司业务，不建议采用集成度高的开源代码。庞大臃肿，纵然短期匆忙上线，难以应付后期灵活需求变更。
 
+### TODO：
 
+- 分时图绘制。
 
 `Objective-C`版请移步 https://github.com/cclion/CCLKLineChartView 。
